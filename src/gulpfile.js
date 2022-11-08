@@ -1,3 +1,4 @@
+//Chamando Gulp
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 
@@ -6,4 +7,4 @@ gulp.task('sass', function(){
     .pipe(sass())
     .pipe(gulp.dest('./dist/css'))
 
-});
+});   
